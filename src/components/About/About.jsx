@@ -9,8 +9,10 @@ const About = () => {
   return (
     <section id="about" className={css.section}>
       <Container>
-        <h2 className={css.title}>{data.title}</h2>
-        <p className={css.text}>{data.text}</p>
+        <div className={css.titleTextWrap}>
+          <h2 className={css.title}>{data.title}</h2>
+          <p className={css.text}>{data.text}</p>
+        </div>
 
         <MainValues />
       </Container>

@@ -20,8 +20,6 @@
 }
 
 .message {
-  margin-top: 36px;
-
   font-size: 18px;
   letter-spacing: var(--letter-spacing);
 
@@ -66,4 +64,50 @@
   transform: rotate(90deg);
 
   transition: var(--transition-dur-and-func);
+}
+
+.contactUs {
+  margin-top: 36px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    position: relative;
+
+    display: flex;
+    align-items: flex-end;
+    gap: 24px;
+  }
+
+  .section {
+    padding-top: 100px;
+  }
+
+  .title {
+    position: absolute;
+    top: 0;
+    left: 396px;
+
+    min-width: 347px;
+
+    font-size: 36px;
+  }
+
+  .scrollBtn {
+    margin: 0;
+  }
+
+  .questAnswlist {
+    max-width: 342px;
+  }
+
+  .contactUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+
+    margin-top: 0;
+  }
 }

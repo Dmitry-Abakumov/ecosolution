@@ -7,7 +7,6 @@ const SuccessfulCases = () => {
   return (
     <section id="cases" className={css.section}>
       <Container className={css.container}>
-        <h2 className={css.title}>Successful cases of our company</h2>
         <ImageSlider />
       </Container>
     </section>

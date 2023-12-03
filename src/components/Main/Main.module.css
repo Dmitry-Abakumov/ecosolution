@@ -84,6 +84,10 @@
 }
 
 @media screen and (min-width: 768px) {
+  .section {
+    padding-top: 128px;
+  }
+
   .title {
     max-width: 300px;
 
@@ -121,5 +125,12 @@
   .copyright {
     letter-spacing: var(--letter-spacing);
     text-align: center;
+  }
+
+  .img {
+    width: 100%;
+    max-width: 768px;
+
+    margin: 40px auto 0px;
   }
 }

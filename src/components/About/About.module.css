@@ -4,6 +4,7 @@
 
 .title {
   font-size: 28px;
+  line-height: 1;
   text-transform: uppercase;
 }
 
@@ -13,4 +14,27 @@
   text-align: justify;
 
   letter-spacing: var(--letter-sapcing);
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    font-size: 36px;
+  }
+  .section {
+    padding-top: 100px;
+  }
+
+  .titleTextWrap {
+    display: grid;
+    grid-template-columns: 272px 353px;
+    column-gap: 82px;
+  }
+
+  .text {
+    margin-top: 0;
+    padding-left: 11px;
+
+    border: none;
+    border-left: 1px solid var(--accent-color);
+  }
 }

@@ -6,24 +6,55 @@ import css from "./MainValues.module.css";
 
 const MainValues = () => {
   return (
-    <ul className={css.list}>
-      {mainValues.map(({ title, iconName, text }) => (
-        <li key={title} className={css.item}>
-          <div className={css.iconTitleWrap}>
-            <Icon
-              iconName={iconName}
-              width="16"
-              height="16"
-              className={css.icon}
-            />
-            <h3 className={css.title}>{title}</h3>
-          </div>
-          <hr className={css.line} />
+    <>
+      <div className={css.mainValues}>
+        {mainValues.map(({ title, iconName, text }) => (
+          <div key={title} className={`${css.card} value${title}`}>
+            <div className={css.iconTitleWrap}>
+              <Icon
+                iconName={iconName}
+                width="16"
+                height="16"
+                className={css.icon}
+              />
+              <h3 className={css.title}>{title}</h3>
+            </div>
+            <hr className={css.divne} />
 
-          <p className={css.text}>{text}</p>
-        </li>
-      ))}
-    </ul>
+            <p className={css.text}>{text}</p>
+          </div>
+        ))}
+
+        <picture className={css.windGeneratorEngineersImg}>
+          {/* <source
+          srcSet="/images/desktop/windmill-desktop.jpg"
+          media="(min-width: 1200px)"
+        /> */}
+          <img
+            className={css.img}
+            alt="Wind generator engineers"
+            src="/images/tablet/wind-generator-engineers-tablet.jpg"
+            loading="lazy"
+          />
+        </picture>
+        <picture className={css.solarPanelEngineersImg}>
+          {/* <source
+          srcSet="/images/desktop/windmill-desktop.jpg"
+          media="(min-width: 1200px)"
+        /> */}
+          <source
+            srcSet="/images/tablet/solar-panel-engineer-tablet.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            className={css.img}
+            alt="Solar panel engineers"
+            src="/images/tablet/solar-panel-engineer-tablet.jpg"
+            loading="lazy"
+          />
+        </picture>
+      </div>
+    </>
   );
 };
 

@@ -15,7 +15,7 @@ const Faq = () => {
 
   return (
     <section id="faq" className={css.section}>
-      <Container>
+      <Container className={css.container}>
         <h2 className={css.title}>Frequently Asked Questions</h2>
         <ul className={css.questAnswlist}>
           {questionsData.map((el, indx) => (
@@ -29,13 +29,22 @@ const Faq = () => {
           ))}
         </ul>
 
-        <p className={css.message}>Didn't find the answer to your question? </p>
-        <ScrollToSectionBtn sectionId="contactUs" className={css.scrollBtn}>
-          Get in touch
-          <div className={css.circle}>
-            <Icon iconName="arrow" width="8" height="9" className={css.icon} />
-          </div>
-        </ScrollToSectionBtn>
+        <div className={css.contactUs}>
+          <p className={css.message}>
+            Didn't find the answer to your question?{" "}
+          </p>
+          <ScrollToSectionBtn sectionId="contactUs" className={css.scrollBtn}>
+            Get in touch
+            <div className={css.circle}>
+              <Icon
+                iconName="arrow"
+                width="8"
+                height="9"
+                className={css.icon}
+              />
+            </div>
+          </ScrollToSectionBtn>
+        </div>
       </Container>
     </section>
   );

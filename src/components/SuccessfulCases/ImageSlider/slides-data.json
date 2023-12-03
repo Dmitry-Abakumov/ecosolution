@@ -1,7 +1,7 @@
 [
   {
     "imgSrc": {
-      "mobile": "/images/mobile/slider-1-mobile.jpg",
+      "mobile": "/images/mobile/slide-1-mobile.jpg",
       "tablet": "",
       "desktop": ""
     },
@@ -12,7 +12,7 @@
   },
   {
     "imgSrc": {
-      "mobile": "/images/mobile/slider-2-mobile.jpg",
+      "mobile": "/images/mobile/slide-2-mobile.jpg",
       "tablet": "",
       "desktop": ""
     },
@@ -23,7 +23,7 @@
   },
   {
     "imgSrc": {
-      "mobile": "/images/mobile/slider-3-mobile.jpg",
+      "mobile": "/images/mobile/slide-3-mobile.jpg",
       "tablet": "",
       "desktop": ""
     },
@@ -34,7 +34,7 @@
   },
   {
     "imgSrc": {
-      "mobile": "/images/mobile/slider-4-mobile.jpg",
+      "mobile": "/images/mobile/slide-4-mobile.jpg",
       "tablet": "",
       "desktop": ""
     },
@@ -45,7 +45,7 @@
   },
   {
     "imgSrc": {
-      "mobile": "/images/mobile/slider-5-mobile.jpg",
+      "mobile": "/images/mobile/slide-5-mobile.jpg",
       "tablet": "",
       "desktop": ""
     },

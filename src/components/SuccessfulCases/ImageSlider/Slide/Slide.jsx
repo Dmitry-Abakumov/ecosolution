@@ -11,7 +11,8 @@ const Slide = ({
       <img alt={description} src={imgSrc.mobile} className={css.img} />
       <div className={css.contentWrap}>
         <p className={css.info}>
-          <span className={css.location}>{location}</span> {customer}
+          {`${location} ${customer}`}
+          {/* <span className={css.location}>{location}</span> {customer} */}
         </p>
         <RoundButton className={css.btn}>
           <Icon iconName="arrow" width="28" height="28" className={css.icon} />

@@ -41,11 +41,22 @@ const Main = () => {
         </div>
       </Container>
 
-      <img
-        className={css.img}
-        alt="windmill"
-        src="/images/mobile/windmill-mobile.jpg"
-      />
+      <picture>
+        {/* <source
+          srcSet="/images/desktop/windmill-desktop.jpg"
+          media="(min-width: 1200px)"
+        /> */}
+        <source
+          srcSet="/images/tablet/wind-generator-tablet.jpg"
+          media="(min-width: 768px)"
+        />
+        <img
+          className={css.img}
+          alt="Wind generator"
+          src="/images/mobile/wind-generator-mobile.jpg"
+          loading="lazy"
+        />
+      </picture>
     </section>
   );
 };
