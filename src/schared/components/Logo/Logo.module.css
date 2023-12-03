@@ -1,0 +1,36 @@
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  font-family: "All Round Gothic Thick", sans-serif;
+
+  transition: var(--transition-dur-and-func);
+}
+
+.logo:hover > .title,
+.logo:focus > .title {
+  color: var(--accent-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.title {
+  font-size: 33px;
+  letter-spacing: var(--letter-spacing);
+  line-height: 1.2;
+  padding-bottom: 4px;
+}
+
+.slogan {
+  font-size: 10px;
+  line-height: 0.9;
+  letter-spacing: var(--letter-spacing);
+
+  font-family: "Saygon Text Regular", sans-serif;
+}
+
+.sloganAccent {
+  color: var(--accent-color);
+}

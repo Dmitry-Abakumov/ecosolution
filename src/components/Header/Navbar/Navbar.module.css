@@ -1,0 +1,85 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.burgerMenu {
+  background-color: #dcefd8;
+}
+
+.burgerMenu:hover,
+.burgerMenu:focus {
+  background-color: var(--accent-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.burgerMenu:hover,
+.burgerMenu:focus > .burgerIcon {
+  fill: #292d32;
+}
+
+.burger .burgerIcon {
+  fill: #292d32;
+
+  transition: var(--transition-dur-and-func);
+}
+
+.scrollBtn:hover > .circle,
+.scrollBtn:focus > .circle {
+  background-color: var(--accent-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.scrollBtn:hover .icon,
+.scrollBtn:focus .icon {
+  fill: var(--primary-font-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+
+  width: 14px;
+  height: 14px;
+
+  background-color: var(--primary-font-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.icon {
+  fill: transparent;
+
+  transform: rotate(90deg);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.burgerMenuContainer {
+  padding-top: 36px;
+  padding-bottom: 36px;
+
+  height: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .scrollBtn {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .btnsWrap {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+}

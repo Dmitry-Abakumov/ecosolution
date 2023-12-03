@@ -1,0 +1,62 @@
+.slide {
+  width: 320px;
+  padding: 0px 12px 12px;
+  margin: 0 auto;
+
+  background-color: var(--secondary-bg-color);
+}
+
+.icon {
+  transform: rotate(-45deg);
+  fill: var(--primary-font-color);
+}
+
+.img {
+  width: calc(100% + 24px);
+  margin-left: -12px;
+}
+
+.contentWrap {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 24px;
+}
+
+.info {
+  max-width: 175px;
+
+  font-size: 18px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+}
+
+.btn {
+  width: 60px;
+  height: 60px;
+
+  transition: var(--transition-dur-and-func);
+}
+
+.btn:hover > .icon,
+.btn:focus > .icon {
+  fill: var(--accent-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.line {
+  margin-top: 21px;
+}
+
+.descDataWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-top: 12px;
+  font-size: 12px;
+  line-height: 1.2;
+  letter-spacing: var(--letter-spacing);
+}

@@ -1,0 +1,23 @@
+.scrollBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  background-color: var(--accent-color);
+
+  font-size: 16px;
+  letter-spacing: var(--letter-spacing);
+
+  border-radius: 500px;
+
+  transition: var(--transition-dur-and-func);
+}
+
+.scrollBtn:hover,
+.scrollBtn:focus {
+  background-color: var(--primary-font-color);
+  color: var(--accent-color);
+
+  transition: var(--transition-dur-and-func);
+}

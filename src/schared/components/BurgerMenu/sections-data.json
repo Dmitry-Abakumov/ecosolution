@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Main",
+    "id": "main"
+  },
+  {
+    "name": "About",
+    "id": "about"
+  },
+  {
+    "name": "Cases",
+    "id": "cases"
+  },
+  {
+    "name": "FAQ",
+    "id": "faq"
+  },
+  {
+    "name": "Contact US",
+    "id": "contactUs"
+  }
+]

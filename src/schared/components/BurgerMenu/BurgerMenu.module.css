@@ -1,0 +1,103 @@
+.burgerMenu {
+  position: relative;
+
+  padding: 24px;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgba(22, 59, 49, 0.75);
+  backdrop-filter: blur(25px);
+
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.btnsList {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+
+  margin-top: 24px;
+}
+
+.arrowIcon {
+  transform: rotate(-45deg);
+  fill: #ffffff;
+
+  transition: var(--transition-dur-and-func);
+}
+
+.scrollBtn {
+  background-color: transparent;
+  color: #ffffff;
+  padding: 0;
+
+  align-items: center;
+  gap: 8px;
+
+  font-size: 24px;
+  letter-spacing: var(--letter-spacing);
+}
+
+.scrollBtn:hover,
+.scrollBtn:focus {
+  background-color: transparent;
+}
+
+.scrollBtn:hover > .arrowIcon,
+.scrollBtn:focus > .arrowIcon {
+  fill: var(--accent-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.line {
+  margin-top: 8px;
+  border-color: #ffffff;
+}
+
+.closeBtn {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+
+  font-size: 20px;
+  letter-spacing: var(--letter-spacing);
+
+  color: #ffffff;
+}
+
+.closeBtn:hover,
+.closeBtn:focus {
+  color: var(--accent-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.closeIcon {
+  width: 25px;
+  height: 25px;
+}
+
+.socialIcon {
+  fill: #ffffff;
+}
+
+.socialLink {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.socialLink:hover > .socialIcon,
+.socialLink:focus > .socialIcon {
+  fill: var(--accent-color);
+}
+
+.socialsList {
+  position: absolute;
+  bottom: 24px;
+  left: 24px;
+  display: flex;
+  gap: 8px;
+}

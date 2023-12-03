@@ -1,0 +1,49 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 16px;
+}
+
+.question {
+  text-align: justify;
+
+  font-size: 18px;
+  letter-spacing: var(--letter-spacing);
+}
+
+.answer {
+  margin-left: 24px;
+
+  text-align: justify;
+
+  font-size: 14px;
+  letter-spacing: var(--letter-spacing);
+}
+
+.plusIcon {
+  width: 16px;
+  height: 16px;
+  color: var(--accent-color);
+}
+.minusIcon {
+  width: 16px;
+  height: 16px;
+  color: var(--primary-font-color);
+}
+
+.btnQuestionWrap {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  width: 100%;
+}

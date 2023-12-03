@@ -1,0 +1,16 @@
+.section {
+  padding-top: 36px;
+}
+
+.title {
+  font-size: 28px;
+  text-transform: uppercase;
+}
+
+.text {
+  margin-top: 24px;
+
+  text-align: justify;
+
+  letter-spacing: var(--letter-sapcing);
+}

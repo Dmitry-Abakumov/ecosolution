@@ -1,0 +1,69 @@
+.section {
+  padding-top: 36px;
+}
+
+.title {
+  margin-bottom: 16px;
+  max-width: 205px;
+
+  font-size: 28px;
+  line-height: 1;
+
+  text-transform: uppercase;
+}
+
+.questAnswlist {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.message {
+  margin-top: 36px;
+
+  font-size: 18px;
+  letter-spacing: var(--letter-spacing);
+
+  text-align: center;
+}
+
+.scrollBtn {
+  margin: 12px auto 0;
+}
+
+.scrollBtn:hover > .circle,
+.scrollBtn:focus > .circle {
+  background-color: var(--accent-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.scrollBtn:hover .icon,
+.scrollBtn:focus .icon {
+  fill: var(--primary-font-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.circle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+
+  width: 14px;
+  height: 14px;
+
+  background-color: var(--primary-font-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.icon {
+  fill: transparent;
+
+  transform: rotate(90deg);
+
+  transition: var(--transition-dur-and-func);
+}

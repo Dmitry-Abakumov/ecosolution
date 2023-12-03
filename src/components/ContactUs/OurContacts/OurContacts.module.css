@@ -1,0 +1,55 @@
+.ourContacts {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+
+  margin-top: 24px;
+}
+
+.contactBlock {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contactBlockName {
+  letter-spacing: var(--letter-spacing);
+}
+
+.icon {
+  transition: var(--transition-dur-and-func);
+}
+
+.contactLink {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+
+  max-width: 244px;
+
+  font-size: 20px;
+  letter-spacing: var(--letter-spacing);
+}
+
+.contactLink:hover > .icon,
+.contactLink:focus > .icon {
+  fill: var(--accent-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.socialNetworkBlock {
+  gap: 20px;
+}
+
+.socialNetworkWrap {
+  display: flex;
+  gap: 32px;
+  margin-left: 12px;
+}
+
+.telLinkWrap {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}

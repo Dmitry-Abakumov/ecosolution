@@ -1,0 +1,125 @@
+.title {
+  max-width: 320px;
+
+  font-size: 36px;
+  line-height: 1;
+}
+
+.upperCase {
+  text-transform: uppercase;
+}
+
+.section {
+  padding-top: 110px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.text {
+  text-align: justify;
+
+  letter-spacing: var(--letter-spacing);
+}
+
+.scrollBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  align-self: center;
+  gap: 12px;
+
+  padding: 4px 4px 4px 16px;
+
+  border: 1px solid var(--accent-color);
+  border-radius: 500px;
+
+  background-color: transparent;
+
+  color: var(--primary-font-color);
+
+  font-family: var(--primary-font-family);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.scrollBtn:hover,
+.scrollBtn:focus {
+  border-color: var(--primary-font-color);
+  background-color: var(--primary-font-color);
+  color: var(--accent-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.circle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  width: 32px;
+  height: 32px;
+
+  border-radius: 100%;
+
+  background-color: var(--accent-color);
+}
+
+.icon {
+  fill: var(--primary-font-color);
+}
+
+.img {
+  width: 100%;
+  max-width: 480px;
+
+  margin: 36px auto 0px;
+}
+
+.copyright {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .title {
+    max-width: 300px;
+
+    font-size: 48px;
+    line-height: 1;
+
+    text-transform: uppercase;
+  }
+
+  .btnAndTextWrap {
+    display: flex;
+    flex-direction: column;
+    gap: 43px;
+  }
+
+  .generalInfoWrap {
+    display: flex;
+    gap: 65px;
+  }
+
+  .scrollBtn {
+    align-self: flex-start;
+  }
+
+  .copyright {
+    display: block;
+  }
+
+  .copyrightContactsWrap {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .copyright {
+    letter-spacing: var(--letter-spacing);
+    text-align: center;
+  }
+}

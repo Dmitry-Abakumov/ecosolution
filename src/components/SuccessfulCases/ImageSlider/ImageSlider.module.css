@@ -1,0 +1,61 @@
+.slider {
+  margin-top: 19px;
+}
+
+.btn {
+  width: 66px;
+  height: 66px;
+
+  background-color: transparent;
+
+  border: 1px solid var(--primary-font-color);
+
+  transition: var(--transition-dur-and-func);
+}
+
+.btn:hover,
+.btn:focus {
+  border-color: var(--accent-color);
+
+  background-color: transparent;
+
+  transition: var(--transition-dur-and-func);
+}
+
+.icon {
+  fill: var(--primary-font-color);
+}
+
+.decrementIcon {
+  transform: rotate(180deg);
+}
+
+.btn:hover > .icon,
+.btn:focus > .icon {
+  fill: var(--accent-color);
+}
+
+.btnWrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.slideNumber {
+  font-size: 28px;
+  font-weight: 300;
+  letter-spacing: var(--letter-spacing);
+  line-height: 1.2;
+}
+
+.slidesAmount {
+  color: rgba(23, 61, 51, 0.25);
+}
+
+.slideNumberAndBtnsWrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+
+  margin-top: 24px;
+}

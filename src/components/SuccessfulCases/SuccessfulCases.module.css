@@ -1,0 +1,16 @@
+.section {
+  padding-top: 36px;
+}
+
+.container {
+  position: relative;
+}
+
+.title {
+  font-size: 28px;
+  line-height: 1;
+
+  text-transform: uppercase;
+
+  max-width: 264px;
+}

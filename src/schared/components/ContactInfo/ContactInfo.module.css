@@ -1,0 +1,18 @@
+.contactInfoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-self: center;
+  gap: 8px;
+}
+
+.contactInfo {
+  letter-spacing: var(--letter-spacing);
+}
+
+@media screen and (min-width: 768px) {
+  .contactInfoList {
+    flex-direction: row;
+    gap: 77px;
+  }
+}
