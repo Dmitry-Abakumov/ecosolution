@@ -11,41 +11,44 @@ const Footer = () => {
   return (
     <footer className={css.footer}>
       <Container className={css.container}>
-        <div className={css.wrap}>
-          <Logo />
-          <ScrollToSectionBtn sectionId="main" className={css.btn}>
-            <Icon
-              iconName="arrow"
-              width="16"
-              height="16"
-              className={css.arrowIcon}
-            />
-          </ScrollToSectionBtn>
+        <div className={css.logoBtnSocialWrap}>
+          <div className={css.wrap}>
+            <Logo />
+            <ScrollToSectionBtn sectionId="main" className={css.btn}>
+              <Icon
+                iconName="arrow"
+                width="16"
+                height="16"
+                className={css.arrowIcon}
+              />
+            </ScrollToSectionBtn>
+          </div>
+
+          <ul className={css.socialsList}>
+            <li>
+              <a href="#" className={css.socialLink}>
+                <Icon
+                  iconName="instagram"
+                  width="24"
+                  height="24"
+                  className={css.socialIcon}
+                />
+              </a>
+            </li>
+            <li>
+              <a href="#" className={css.socialLink}>
+                <Icon
+                  iconName="facebook"
+                  width="24"
+                  height="24"
+                  className={css.socialIcon}
+                />
+              </a>
+            </li>
+          </ul>
         </div>
 
-        <ul className={css.socialsList}>
-          <li>
-            <a href="#" className={css.socialLink}>
-              <Icon
-                iconName="instagram"
-                width="24"
-                height="24"
-                className={css.socialIcon}
-              />
-            </a>
-          </li>
-          <li>
-            <a href="#" className={css.socialLink}>
-              <Icon
-                iconName="facebook"
-                width="24"
-                height="24"
-                className={css.socialIcon}
-              />
-            </a>
-          </li>
-        </ul>
-        <div>
+        <div className={css.contactsCopyrightWrap}>
           <ContactInfo wrapperClass={css.contctInfoWrapper} />
           <p className={css.copyright}>ecosolution © 2023</p>
         </div>

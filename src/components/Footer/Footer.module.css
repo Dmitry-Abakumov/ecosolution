@@ -54,6 +54,8 @@
 
 .socialsList {
   display: flex;
+  justify-content: center;
+  align-items: center;
   gap: 8px;
 }
 
@@ -66,4 +68,41 @@
   text-align: center;
 
   margin-top: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .footer {
+    padding: 40px 0px;
+  }
+
+  .logoBtnSocialWrap {
+    display: flex;
+    gap: 97px;
+  }
+
+  .contactsCopyrightWrap {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+  }
+
+  .contctInfoWrapper {
+    gap: 75px;
+  }
+
+  .copyright {
+    margin-top: 0;
+  }
+
+  .btn {
+    position: absolute;
+    top: 5px;
+    right: 30px;
+  }
+
+  .container {
+    position: relative;
+    align-items: flex-start;
+    gap: 16px;
+  }
 }

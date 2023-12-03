@@ -10,8 +10,11 @@ const ContactUs = () => {
     <section id="contactUs" className={css.section}>
       <Container>
         <h2 className={css.title}>Contact us</h2>
-        <OurContacts />
-        <ContactForm />
+
+        <div className={css.formAndContactsWrap}>
+          <OurContacts />
+          <ContactForm />
+        </div>
 
         <hr className={css.line} />
       </Container>
