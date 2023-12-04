@@ -1,7 +1,7 @@
 import { useRef, useState, useEffect } from "react";
 import Slider from "react-slick";
 
-import Slide from "./Slide/Slide";
+import Slide from "./Slide";
 
 import RoundButton from "src/schared/components/RoundButton";
 import Icon from "src/schared/components/Icon";

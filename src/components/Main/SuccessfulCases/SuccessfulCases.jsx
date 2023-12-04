@@ -1,4 +1,4 @@
-import ImageSlider from "./ImageSlider/ImageSlider";
+import ImageSlider from "./ImageSlider";
 import Container from "src/schared/components/Conatiner";
 
 import css from "./SuccessfulCases.module.css";
