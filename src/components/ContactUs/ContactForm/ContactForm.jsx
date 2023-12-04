@@ -22,7 +22,7 @@ const ContactForm = () => {
       onSubmit={(_, { resetForm }) => resetForm()}
     >
       {({ errors }) => (
-        <Form className={css.form}>
+        <Form autocomlete="on" className={css.form}>
           <label className={css.label}>
             {fields.fullName.label}
             <Field

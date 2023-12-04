@@ -5,6 +5,7 @@ const fields = {
     label: "* Full name:",
     type: "text",
     id: "fullName",
+    autocomplete: "on",
   },
   email: {
     name: "email",
@@ -12,6 +13,7 @@ const fields = {
     label: "* E-mail:",
     type: "email",
     id: "email",
+    autocomplete: "email",
   },
   phone: {
     name: "phone",
@@ -19,6 +21,7 @@ const fields = {
     label: "* Phone:",
     type: "tel",
     id: "phone",
+    autocomplete: "on",
   },
   message: {
     name: "message",
@@ -26,6 +29,7 @@ const fields = {
     label: "Message:",
     as: "textarea",
     id: "message",
+    autocomplete: "on",
   },
 };
 
