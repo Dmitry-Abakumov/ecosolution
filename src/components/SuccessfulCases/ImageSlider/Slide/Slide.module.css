@@ -64,10 +64,6 @@
   .slide {
     width: 342px;
     min-height: 330px;
-    padding: 0px 12px 12px;
-    margin: 0 auto;
-
-    background-color: var(--secondary-bg-color);
   }
 
   .info {
@@ -78,5 +74,38 @@
 
   .descDataWrap {
     font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .img {
+    width: calc(100% + 96px);
+    margin-left: -48px;
+  }
+
+  .slide {
+    width: 596px;
+    min-height: 506px;
+    padding: 0px 48px 36px;
+  }
+
+  .info {
+    max-width: 194px;
+
+    font-size: 24px;
+    max-width: 357px;
+  }
+
+  .descDataWrap {
+    margin-top: 24px;
+    font-size: 14px;
+  }
+
+  .contentWrap {
+    margin-top: 36px;
+  }
+
+  .line {
+    margin-top: 36px;
   }
 }

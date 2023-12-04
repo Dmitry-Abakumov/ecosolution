@@ -38,3 +38,22 @@
     border-left: 1px solid var(--accent-color);
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .section {
+    padding-top: 120px;
+  }
+
+  .title {
+    font-size: 48px;
+  }
+
+  .titleTextWrap {
+    grid-template-columns: 365px 620px;
+    column-gap: 254px;
+  }
+
+  .text {
+    padding-left: 161px;
+  }
+}

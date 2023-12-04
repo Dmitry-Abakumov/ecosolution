@@ -2,8 +2,7 @@
   {
     "imgSrc": {
       "mobile": "/images/mobile/slide-1-mobile.jpg",
-      "tablet": "",
-      "desktop": ""
+      "desktop": "/images/desktop/slide-1-desktop.jpg"
     },
     "location": "Lviv Region, Radekhiv town",
     "customer": "Private Enterprise “ZAKHIDNYI BUH”",
@@ -13,8 +12,7 @@
   {
     "imgSrc": {
       "mobile": "/images/mobile/slide-2-mobile.jpg",
-      "tablet": "",
-      "desktop": ""
+      "desktop": "/images/desktop/slide-2-desktop.jpg"
     },
     "location": "Zhytomyr city",
     "customer": "Private Enterprise “Bosch”",
@@ -24,8 +22,7 @@
   {
     "imgSrc": {
       "mobile": "/images/mobile/slide-3-mobile.jpg",
-      "tablet": "",
-      "desktop": ""
+      "desktop": "/images/desktop/slide-3-desktop.jpg"
     },
     "location": "Rivne city",
     "customer": "Private Enterprise “Biotech”",
@@ -35,8 +32,7 @@
   {
     "imgSrc": {
       "mobile": "/images/mobile/slide-4-mobile.jpg",
-      "tablet": "",
-      "desktop": ""
+      "desktop": "/images/desktop/slide-4-desktop.jpg"
     },
     "location": "Kherson city",
     "customer": "Private Enterprise “HealthyFarm”",
@@ -46,8 +42,7 @@
   {
     "imgSrc": {
       "mobile": "/images/mobile/slide-5-mobile.jpg",
-      "tablet": "",
-      "desktop": ""
+      "desktop": "/images/desktop/slide-5-desktop.jpg"
     },
     "location": "Zaporizhia city",
     "customer": "Private Enterprise “Biotech”",

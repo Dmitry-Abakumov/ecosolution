@@ -101,3 +101,13 @@
   display: flex;
   gap: 8px;
 }
+
+@media screen and (min-width: 768px) {
+  .burgerMenu {
+    max-width: 365px;
+  }
+
+  .closeBtn {
+    font-size: 16px;
+  }
+}

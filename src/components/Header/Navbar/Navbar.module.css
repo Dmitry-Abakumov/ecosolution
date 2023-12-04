@@ -82,4 +82,12 @@
     align-items: center;
     gap: 12px;
   }
+
+  .burgerMenuContainer {
+    display: flex;
+    justify-content: flex-end;
+
+    padding-top: 24px;
+    padding-bottom: 24px;
+  }
 }

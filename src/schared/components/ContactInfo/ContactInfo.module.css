@@ -16,3 +16,9 @@
     gap: 77px;
   }
 }
+
+@media screen and (min-width: 1280px) {
+  .contactInfoList {
+    gap: 492px;
+  }
+}

@@ -11,12 +11,7 @@ const MainValues = () => {
         {mainValues.map(({ title, iconName, text }) => (
           <div key={title} className={`${css.card} value${title}`}>
             <div className={css.iconTitleWrap}>
-              <Icon
-                iconName={iconName}
-                width="16"
-                height="16"
-                className={css.icon}
-              />
+              <Icon iconName={iconName} className={css.icon} />
               <h3 className={css.title}>{title}</h3>
             </div>
             <hr className={css.divne} />
@@ -26,10 +21,10 @@ const MainValues = () => {
         ))}
 
         <picture className={css.windGeneratorEngineersImg}>
-          {/* <source
-          srcSet="/images/desktop/windmill-desktop.jpg"
-          media="(min-width: 1200px)"
-        /> */}
+          <source
+            srcSet="/images/desktop/wind-generator-engineers-desktop.jpg"
+            media="(min-width: 1280px)"
+          />
           <img
             className={css.img}
             alt="Wind generator engineers"
@@ -38,10 +33,10 @@ const MainValues = () => {
           />
         </picture>
         <picture className={css.solarPanelEngineersImg}>
-          {/* <source
-          srcSet="/images/desktop/windmill-desktop.jpg"
-          media="(min-width: 1200px)"
-        /> */}
+          <source
+            srcSet="/images/desktop/solar-panel-engineer-desktop.jpg"
+            media="(min-width: 1280px)"
+          />
           <source
             srcSet="/images/tablet/solar-panel-engineer-tablet.jpg"
             media="(min-width: 768px)"

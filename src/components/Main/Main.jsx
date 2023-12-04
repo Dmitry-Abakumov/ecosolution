@@ -39,24 +39,24 @@ const Main = () => {
           <ContactInfo />
           <p className={css.copyright}>ecosolution © 2023</p>
         </div>
-      </Container>
 
-      <picture>
-        {/* <source
-          srcSet="/images/desktop/windmill-desktop.jpg"
-          media="(min-width: 1200px)"
-        /> */}
-        <source
-          srcSet="/images/tablet/wind-generator-tablet.jpg"
-          media="(min-width: 768px)"
-        />
-        <img
-          className={css.img}
-          alt="Wind generator"
-          src="/images/mobile/wind-generator-mobile.jpg"
-          loading="lazy"
-        />
-      </picture>
+        <picture>
+          <source
+            srcSet="/images/desktop/wind-generator-desktop.jpg"
+            media="(min-width: 1280px)"
+          />
+          <source
+            srcSet="/images/tablet/wind-generator-tablet.jpg"
+            media="(min-width: 768px)"
+          />
+          <img
+            className={css.img}
+            alt="Wind generator"
+            src="/images/mobile/wind-generator-mobile.jpg"
+            loading="lazy"
+          />
+        </picture>
+      </Container>
     </section>
   );
 };

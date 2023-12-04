@@ -2,10 +2,14 @@ import css from "./ScrollToSectionBtn.module.css";
 
 const ScrollToSectionBtn = ({ sectionId, className, onClick, children }) => {
   const scrollToSection = () => {
+    const screenWidth =
+      window.innerWidth ||
+      document.documentElement.clientWidth ||
+      document.body.clientWidth;
     const section = document.getElementById(sectionId);
 
     const offsetToSectionFromTop = section.getBoundingClientRect().top;
-    const headerHeight = 115;
+    const headerHeight = screenWidth >= 1280 ? 92 : 115;
 
     const finalScrollHeight = offsetToSectionFromTop - headerHeight;
 

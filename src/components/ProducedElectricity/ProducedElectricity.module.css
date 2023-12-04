@@ -78,4 +78,30 @@
     font-size: 28px;
     line-height: 1.7;
   }
+
+  .producedElectricity {
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .section {
+    padding-top: 120px;
+  }
+
+  .container {
+    gap: 60px;
+  }
+
+  .electricityEmount {
+    font-size: 164px;
+  }
+
+  .unit {
+    font-size: 48px;
+  }
+
+  .producedElectricity {
+    gap: 24px;
+  }
 }

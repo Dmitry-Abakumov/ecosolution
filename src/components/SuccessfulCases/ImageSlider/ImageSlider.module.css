@@ -56,6 +56,8 @@
   justify-content: space-between;
   align-items: flex-end;
 
+  width: 100%;
+
   margin-top: 24px;
 }
 
@@ -101,5 +103,30 @@
 
   .slider {
     margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .title {
+    font-size: 48px;
+    max-width: 398px;
+  }
+
+  .btnWrap {
+    margin-left: 221px;
+  }
+
+  .slideNumber {
+    height: 96px;
+    padding-left: 161px;
+  }
+
+  .slider {
+    margin-top: 120px;
+  }
+
+  .btn {
+    width: 84px;
+    height: 84px;
   }
 }

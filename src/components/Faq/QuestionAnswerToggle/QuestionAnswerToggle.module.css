@@ -49,4 +49,37 @@
 }
 
 @media screen and (min-width: 768px) {
+  .plusIcon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .minusIcon {
+    width: 28px;
+    height: 28px;
+  }
+
+  .btnQuestionWrap {
+    gap: 16px;
+  }
+
+  .answer {
+    margin-left: 44px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .question {
+    font-size: 24px;
+  }
+
+  .answer {
+    margin-left: 52px;
+
+    font-size: 16px;
+  }
+
+  .btnQuestionWrap {
+    gap: 24px;
+  }
 }

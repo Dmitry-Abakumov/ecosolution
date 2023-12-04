@@ -8,7 +8,16 @@ const Slide = ({
 }) => {
   return (
     <div className={css.slide}>
-      <img alt={description} src={imgSrc.mobile} className={css.img} />
+      <picture>
+        <source srcSet={imgSrc.desktop} media="(min-width: 1280px)" />
+        <img
+          alt={description}
+          src={imgSrc.mobile}
+          className={css.img}
+          loadin="lazy"
+        />
+      </picture>
+
       <div className={css.contentWrap}>
         <p className={css.info}>
           {`${location} ${customer}`}
