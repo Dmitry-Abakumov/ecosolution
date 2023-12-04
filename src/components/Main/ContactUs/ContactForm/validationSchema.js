@@ -2,7 +2,7 @@ import { object, string } from "yup";
 
 const emailRegex = /^[\w-.]+@([\w-]+\.)+[\w-]{2,4}$/g;
 const phoneRegex = /(?=.*\+[0-9]{3}\s?[0-9]{2}\s?[0-9]{3}\s?[0-9]{4,5}$)/gm;
-const fullNameRegex = /^[а-яА-Яa-zA-Z\s]*$/;
+const fullNameRegex = /^[a-zA-Zа-яА-ЯїЇіІєЄґҐ\s]+$/;
 
 const validationSchema = object({
   fullName: string()
