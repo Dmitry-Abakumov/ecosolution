@@ -110,4 +110,22 @@
   .closeBtn {
     font-size: 16px;
   }
+
+  .scrollBtn {
+    color: rgba(255, 255, 255, 0.25);
+  }
+
+  .arrowIcon {
+    fill: rgba(255, 255, 255, 0.25);
+  }
+
+  .scrollBtn:hover,
+  .scrollBtn:focus {
+    color: #ffffff;
+  }
+
+  .scrollBtn:hover > .arrowIcon,
+  .scrollBtn:focus > .arrowIcon {
+    fill: #ffffff;
+  }
 }
