@@ -2,11 +2,6 @@ import { useEffect } from "react";
 
 import Header from "../Header";
 import Main from "../Main";
-import About from "../About";
-import ProducedElectricity from "../ProducedElectricity";
-import SuccessfulCases from "../SuccessfulCases";
-import Faq from "../Faq";
-import ContactUs from "../ContactUs";
 import Footer from "../Footer";
 
 import { scrollBackgroundChange } from "src/utils";
@@ -23,14 +18,7 @@ const App = () => {
   return (
     <>
       <Header />
-      <main>
-        <Main />
-        <About />
-        <ProducedElectricity />
-        <SuccessfulCases />
-        <Faq />
-        <ContactUs />
-      </main>
+      <Main />
       <Footer />
     </>
   );
