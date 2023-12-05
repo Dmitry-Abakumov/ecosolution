@@ -1,4 +1,4 @@
-Hello. Ecosolution is a web site with with a adaptive layout written using React.
+Hello. Ecosolution is a web site with a adaptive layout written using React.
 
 There are:
 
