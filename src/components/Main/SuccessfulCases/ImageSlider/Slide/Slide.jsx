@@ -14,7 +14,7 @@ const Slide = ({
           alt={description}
           src={imgSrc.mobile}
           className={css.img}
-          loadin="lazy"
+          loading="lazy"
         />
       </picture>
 
