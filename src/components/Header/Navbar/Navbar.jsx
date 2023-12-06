@@ -47,8 +47,8 @@ const Navbar = () => {
       </nav>
 
       {isMenuOpen && (
-        <Backdrop>
-          <Container className={css.burgerMenuContainer}>
+        <Backdrop setIsMenuOpen={setIsMenuOpen}>
+          <Container data-name="container" className={css.burgerMenuContainer}>
             <BurgerMenu setIsMenuOpen={setIsMenuOpen} />
           </Container>
         </Backdrop>
