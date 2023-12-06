@@ -9,7 +9,7 @@ const ScrollToSectionBtn = ({ sectionId, className, onClick, children }) => {
     const section = document.getElementById(sectionId);
 
     const offsetToSectionFromTop = section.getBoundingClientRect().top;
-    const headerHeight = screenWidth >= 1280 ? 92 : 115;
+    const headerHeight = screenWidth >= 1280 ? 92 : 114;
 
     const finalScrollHeight = offsetToSectionFromTop - headerHeight;
 
