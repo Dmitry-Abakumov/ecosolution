@@ -2,23 +2,23 @@ import { useEffect, useCallback } from "react";
 
 import css from "./Backdrop.module.css";
 
-const Backdrop = ({ children, setIsMenuOpen }) => {
-  const closeBackDropByEscapePress = useCallback(
+const Backdrop = ({ children, setIsBackdropWithContentShow }) => {
+  const closeBackdropByEscapePress = useCallback(
     ({ code }) => {
       if (code !== "Escape") return;
 
-      setIsMenuOpen(false);
+      setIsBackdropWithContentShow(false);
     },
-    [setIsMenuOpen]
+    [setIsBackdropWithContentShow]
   );
 
   useEffect(() => {
-    document.addEventListener("keydown", closeBackDropByEscapePress);
+    document.addEventListener("keydown", closeBackdropByEscapePress);
 
     return () => {
-      document.removeEventListener("keydown", closeBackDropByEscapePress);
+      document.removeEventListener("keydown", closeBackdropByEscapePress);
     };
-  }, [closeBackDropByEscapePress]);
+  }, [closeBackdropByEscapePress]);
 
   return (
     <div
@@ -26,7 +26,7 @@ const Backdrop = ({ children, setIsMenuOpen }) => {
         if (target !== currentTarget && target.dataset.name !== "container")
           return;
 
-        setIsMenuOpen(false);
+        setIsBackdropWithContentShow(false);
       }}
       className={css.backdrop}
     >

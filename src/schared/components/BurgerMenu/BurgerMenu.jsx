@@ -8,10 +8,13 @@ import css from "./BurgerMenu.module.css";
 
 import sectionsData from "./sections-data.json";
 
-const BurgerMenu = ({ setIsMenuOpen }) => {
+const BurgerMenu = ({ setIsBackdropWithContentShow }) => {
   return (
     <div className={css.burgerMenu}>
-      <button className={css.closeBtn} onClick={() => setIsMenuOpen(false)}>
+      <button
+        className={css.closeBtn}
+        onClick={() => setIsBackdropWithContentShow(false)}
+      >
         <IoIosClose className={css.closeIcon} />
         close
       </button>
@@ -24,7 +27,7 @@ const BurgerMenu = ({ setIsMenuOpen }) => {
             <ScrollToSectionBtn
               key={id}
               sectionId={id}
-              onClick={() => setIsMenuOpen(false)}
+              onClick={() => setIsBackdropWithContentShow(false)}
               className={css.scrollBtn}
             >
               {name}

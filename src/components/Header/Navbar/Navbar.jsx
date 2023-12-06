@@ -12,7 +12,8 @@ import Logo from "../../../schared/components/Logo";
 import css from "./Navbar.module.css";
 
 const Navbar = () => {
-  const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isBackdropWithContentShow, setIsBackdropWithContentShow] =
+    useState(false);
 
   return (
     <>
@@ -22,7 +23,7 @@ const Navbar = () => {
         <div className={css.btnsWrap}>
           <RoundButton
             className={css.burgerMenu}
-            onClick={() => setIsMenuOpen((prev) => !prev)}
+            onClick={() => setIsBackdropWithContentShow((prev) => !prev)}
           >
             <Icon
               iconName="menu"
@@ -46,10 +47,12 @@ const Navbar = () => {
         </div>
       </nav>
 
-      {isMenuOpen && (
-        <Backdrop setIsMenuOpen={setIsMenuOpen}>
+      {isBackdropWithContentShow && (
+        <Backdrop setIsBackdropWithContentShow={setIsBackdropWithContentShow}>
           <Container data-name="container" className={css.burgerMenuContainer}>
-            <BurgerMenu setIsMenuOpen={setIsMenuOpen} />
+            <BurgerMenu
+              setIsBackdropWithContentShow={setIsBackdropWithContentShow}
+            />
           </Container>
         </Backdrop>
       )}
