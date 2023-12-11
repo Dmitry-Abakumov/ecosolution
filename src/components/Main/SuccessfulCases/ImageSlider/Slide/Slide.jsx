@@ -20,7 +20,7 @@ const Slide = ({
 
       <div className={css.contentWrap}>
         <p className={css.info}>{`${location} ${customer}`}</p>
-        <RoundButton className={css.btn}>
+        <RoundButton tabindex="-1" className={css.btn}>
           <Icon iconName="arrow" width="28" height="28" className={css.icon} />
         </RoundButton>
       </div>
