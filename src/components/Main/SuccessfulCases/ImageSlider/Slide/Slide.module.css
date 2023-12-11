@@ -39,7 +39,8 @@
   transition: var(--transition-dur-and-func);
 }
 
-.btn:hover > .icon {
+.btn:hover > .icon,
+.btn:focus > .icon {
   fill: var(--accent-color);
 
   transition: var(--transition-dur-and-func);
