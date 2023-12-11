@@ -41,6 +41,14 @@
   outline: none;
 }
 
+.btn:focus {
+  outline: none;
+}
+
+.btn:active {
+  outline: none;
+}
+
 .btn:hover > .icon {
   fill: var(--accent-color);
 
