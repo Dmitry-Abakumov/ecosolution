@@ -37,10 +37,11 @@
   height: 60px;
 
   transition: var(--transition-dur-and-func);
+
+  outline: none;
 }
 
-.btn:hover > .icon,
-.btn:focus > .icon {
+.btn:hover > .icon {
   fill: var(--accent-color);
 
   transition: var(--transition-dur-and-func);
